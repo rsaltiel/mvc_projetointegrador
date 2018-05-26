@@ -1,0 +1,15 @@
+<h1>Framework funcionando com sucesso</h1>
+<p>Esta aplicação MVC tem o intuito de auxiliar o desenvolvimento de demais projetos da disciplina Projeto Integrador III, do IFC Campus Camboriú.</p>
+<p>Se você estiver visualizando esta mensagem, é sinal de que você configurou sua aplicação corretamente. </p>
+
+<h2>Exemplo de uso de variáveis enviadas pelo Controller:</h2>
+<p>Imprimindo o array de nomes ($this->view->nomes) que foi passado no Controller Index (App/Controllers/Index.php):</p>
+<ul>
+    <?php foreach ($this->view->nomes as $nome): ?>
+        <li><?php echo $nome; ?></li>
+    <?php endforeach; ?>
+</ul>
+
+<p>Imprimindo o valor da variável x ($this->view->x): <?php echo $this->view->x; ?></p>
+
+<p><a href="http://www.rafaelsaltiel.com.br/fac_sistemas_internet/4_semestre/projetointegradoriii/documentacao/" target="_blank" class="btn btn-danger">Confira a documentação completa deste framework.</a></p>
